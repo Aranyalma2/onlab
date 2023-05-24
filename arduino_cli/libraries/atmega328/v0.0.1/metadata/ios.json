@@ -1,0 +1,24 @@
+{
+  "IOmodes": {
+    "0": {
+      "side": "IN",
+      "constructor": "new HWIO_Input_Digital(unique_id);",
+      "include": "#include \"HWIO_Input_Digital.h\""
+    },
+    "1": {
+      "side": "IN",
+      "constructor": "new HWIO_Input_Analog(unique_id);",
+      "include": "#include \"HWIO_Input_Analog.h\""
+    },
+    "2": {
+      "side": "OUT",
+      "constructor": "new HWIO_Output_Digital(unique_id);",
+      "include": "#include \"HWIO_Output_Digital.h\""
+    },
+    "3": {
+      "side": "OUT",
+      "constructor": "new HWIO_Output_PWM(unique_id);",
+      "include": "#include \"HWIO_Output_PWM.h\""
+    }
+  }
+}

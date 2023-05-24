@@ -1,0 +1,10 @@
+Atmega328p
+arduino-cli --config-file data/arduino-cli.yaml compile --fqbn arduino:avr:nano:cpu=atmega328 projects/test -e
+arduino-cli --config-file data/arduino-cli.yaml upload --fqbn arduino:avr:nano:cpu=atmega328 projects/test --port COM5
+
+Esp32S
+arduino-cli --config-file data/arduino-cli.yaml compile --fqbn esp32:esp32:nodemcu-32s projects/test -e
+arduino-cli --config-file data/arduino-cli.yaml upload --fqbn esp32:esp32:nodemcu-32s projects/test --port COM3
+
+lib ver0.0.1
+arduino-cli --config-file libraries/v0.0.1/config.yaml

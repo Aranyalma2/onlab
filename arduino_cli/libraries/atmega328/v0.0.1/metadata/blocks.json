@@ -1,0 +1,40 @@
+{
+  "blocks": {
+    "0": {
+      "constructor": "new Logical_AND(unique_id);",
+      "include": "#include \"Logical_AND.h\""
+    },
+    "1": {
+      "constructor": "new Logical_OR(unique_id);",
+      "include": "#include \"Logical_OR.h\""
+    },
+    "2": {
+      "constructor": "new Logical_Selector(unique_id);",
+      "include": "#include \"Logical_Selector.h\""
+    },
+    "3": {
+      "constructor": "new Logical_Counter(unique_id);",
+      "include": "#include \"Logical_Counter.h\""
+    },
+    "4": {
+      "constructor": "new DataProcessor_DecToBit(unique_id);",
+      "include": "#include \"DataProcessor_DecToBit.h\""
+    },
+    "5": {
+      "constructor": "new DataProcessor_10KNTC(unique_id);",
+      "include": "#include \"DataProcessor_10KNTC.h\""
+    },
+    "6": {
+      "constructor": "new Controller_PID(unique_id);",
+      "include": "#include \"Controller_PID.h\""
+    },
+    "7": {
+      "constructor": "new ModbusRegisterLocal_Read(unique_id);",
+      "include": "#include \"ModbusRegisterLocal_Read.h\""
+    },
+    "8": {
+      "constructor": "new ModbusRegisterLocal_Write(unique_id);",
+      "include": "#include \"ModbusRegisterLocal_Write.h\""
+    }
+  }
+}
